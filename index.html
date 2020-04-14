@@ -7,14 +7,15 @@
 </head>
 <body>
 	<audio id="sound1" src="laser.wav"></audio>
-    <audio id="sound2" src="fart.wav"></audio>
-    <audio id="sound3" src="fart2.wav"></audio>
-	<audio id="sound4" src="fart3.flac"></audio>
+    <audio id="sound2" src="sound1.wav"></audio>
+    <audio id="sound3" src="sound2.wav"></audio>
+	<audio id="sound4" src="sound3.flac"></audio>
  
-	<button onclick="document.getElementById('sound1').play()">Lazer</button>
-     <button onclick="document.getElementById('sound2').play()">Fart 1</button>
-     <button onclick="document.getElementById('sound3').play()">Fart 2</button>
- 	<button onclick="document.getElementById('sound4').play()">Fart 3</button>
+	<button style="border: 10px; background-color: blueviolet;" onclick="document.getElementById('sound1').play()">Lazer</button>
+    <button style="border: 50px; background-color: green;" onclick="document.getElementById('sound2').play()">Sound 1</button>
+    <button style="border: 30px; background-color: yellow;" onclick="document.getElementById('sound3').play()">Sound 2</button>
+ 	<button style="border: 100px; background-color: brown;" onclick="document.getElementById('sound4').play()">Sound 3</button>
     
+     <button id="Abort" style="background-color: red; size: 300px; float: left;">ABORT</button>
 </body>
 </html>
